@@ -1,0 +1,101 @@
+/* Set the background color for the body */
+body {
+    background-color: #b9ddfd;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Header style */
+.container h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #05078d; /* Dark text color */
+}
+
+/* Search bar style */
+.form-group input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff; /* White background */
+    color: #333; /* Dark text color */
+}
+
+/* Sort by dropdown style */
+.form-group select {
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff; /* White background */
+    color: #333; /* Dark text color */
+}
+
+/* Product card style */
+.product {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #fff; /* White background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 150px;
+    margin-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.product-info {
+    flex-grow: 1;
+}
+
+.product h2 {
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 10px;
+    color: #ff006f; /* Dark text color */
+}
+
+.product p {
+    font-size: 16px;
+    margin: 0;
+    color: #fa4ab9; /* Slightly darker text color */
+}
+
+/* Footer styles */
+footer {
+    background-color: #190367; /* Background color */
+    color: #fff; /* Text color */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .product {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .product img {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
